@@ -89,8 +89,8 @@ class PLL_Admin extends PLL_Base {
 	 * @since 0.1
 	 */
 	public function add_menus() {
-		add_submenu_page('options-general.php', $title = __('Languages', 'polylang'), $title, 'manage_options', 'mlang',
-			PLL_SETTINGS ? array($this->settings_page, 'languages_page') : create_function('', ''));
+        add_menu_page( $title = __('Languages', 'polylang'), $title, 'edit_others_pages', 'mlang',
+            PLL_SETTINGS ? array($this->settings_page, 'languages_page') : create_function('', ''));
 	}
 
 	/*
