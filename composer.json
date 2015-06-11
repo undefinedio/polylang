@@ -6,5 +6,13 @@
             "email": "koray@unde.fined.io"
         }
     ],
-    "require": {}
+    "keywords": [
+        "wordpress",
+        "polylang"
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=5.3",
+        "johnpbloch/wordpress": ">=3.9",
+    }
 }
