@@ -90,7 +90,7 @@ class PLL_Admin extends PLL_Base {
 	 */
 	public function add_menus() {
         add_menu_page( $title = __('Languages', 'polylang'), $title, 'edit_others_pages', 'mlang',
-            PLL_SETTINGS ? array($this->settings_page, 'languages_page') : create_function('', ''));
+            PLL_SETTINGS ? array($this->settings_page, 'languages_page') : create_function('', ''), 'dashicons-translation');
 	}
 
 	/*
