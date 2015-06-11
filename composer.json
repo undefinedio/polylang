@@ -1,5 +1,6 @@
 {
     "name": "undefinedio/polylang",
+    "type": "wordpress-plugin",
     "authors": [
         {
             "name": "Koray S",
@@ -10,9 +11,8 @@
         "wordpress",
         "polylang"
     ],
-    "type": "wordpress-plugin",
     "require": {
         "php": ">=5.3",
-        "johnpbloch/wordpress": ">=3.9",
+        "johnpbloch/wordpress": ">=3.9"
     }
 }
